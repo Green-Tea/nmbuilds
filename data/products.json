@@ -14,7 +14,7 @@
       "socket": "LGA1700",
       "generation": "Alder Lake 12th Gen"
     },
-    "affiliateUrl": "https://www.amazon.com/dp/B09NMPD8V2?tag=nmbuilds-20",
+    "affiliateUrl": "https://www.amazon.com/dp/B09NMPD8V2",
     "priceRange": { "min": 90, "max": 120 }
   },
   {
@@ -32,7 +32,7 @@
       "socket": "AM4",
       "generation": "Zen 3"
     },
-    "affiliateUrl": "https://www.amazon.com/dp/B09VCHR1VH?tag=nmbuilds-20",
+    "affiliateUrl": "https://www.amazon.com/dp/B09VCHR1VH",
     "priceRange": { "min": 120, "max": 160 }
   },
   {
@@ -50,7 +50,7 @@
       "socket": "LGA1700",
       "generation": "Raptor Lake 13th Gen"
     },
-    "affiliateUrl": "https://www.amazon.com/dp/B0BFB9H3VQ?tag=nmbuilds-20",
+    "affiliateUrl": "https://www.amazon.com/dp/B0BFB9H3VQ",
     "priceRange": { "min": 180, "max": 230 }
   },
   {
@@ -68,7 +68,7 @@
       "socket": "AM5",
       "generation": "Zen 4"
     },
-    "affiliateUrl": "https://www.amazon.com/dp/B0BBJDS62N?tag=nmbuilds-20",
+    "affiliateUrl": "https://www.amazon.com/dp/B0BBJDS62N",
     "priceRange": { "min": 200, "max": 260 }
   },
   {
@@ -86,7 +86,7 @@
       "socket": "LGA1700",
       "generation": "Raptor Lake 13th Gen"
     },
-    "affiliateUrl": "https://www.amazon.com/dp/B0BCF54SR1?tag=nmbuilds-20",
+    "affiliateUrl": "https://www.amazon.com/dp/B0BCF54SR1",
     "priceRange": { "min": 260, "max": 310 }
   },
   {
@@ -104,7 +104,7 @@
       "socket": "AM5",
       "generation": "Zen 4"
     },
-    "affiliateUrl": "https://www.amazon.com/dp/B0BBJDVL61?tag=nmbuilds-20",
+    "affiliateUrl": "https://www.amazon.com/dp/B0BBJDVL61",
     "priceRange": { "min": 290, "max": 360 }
   },
   {
@@ -122,7 +122,7 @@
       "socket": "LGA1700",
       "generation": "Raptor Lake 13th Gen"
     },
-    "affiliateUrl": "https://www.amazon.com/dp/B0BCF3R51L?tag=nmbuilds-20",
+    "affiliateUrl": "https://www.amazon.com/dp/B0BCF3R51L",
     "priceRange": { "min": 360, "max": 430 }
   },
   {
@@ -140,7 +140,7 @@
       "socket": "AM5",
       "generation": "Zen 4"
     },
-    "affiliateUrl": "https://www.amazon.com/dp/B0BBJDS3VN?tag=nmbuilds-20",
+    "affiliateUrl": "https://www.amazon.com/dp/B0BBJDS3VN",
     "priceRange": { "min": 420, "max": 500 }
   },
   {
@@ -158,7 +158,7 @@
       "socket": "LGA1700",
       "generation": "Raptor Lake 13th Gen"
     },
-    "affiliateUrl": "https://www.amazon.com/dp/B0BCF57W9W?tag=nmbuilds-20",
+    "affiliateUrl": "https://www.amazon.com/dp/B0BCF57W9W",
     "priceRange": { "min": 530, "max": 620 }
   },
   {
@@ -176,7 +176,7 @@
       "socket": "AM5",
       "generation": "Zen 4"
     },
-    "affiliateUrl": "https://www.amazon.com/dp/B0BBJDDSQX?tag=nmbuilds-20",
+    "affiliateUrl": "https://www.amazon.com/dp/B0BBJDDSQX",
     "priceRange": { "min": 600, "max": 720 }
   },
   {
@@ -194,7 +194,7 @@
       "recommendedPSU": "550W",
       "target": "1080p High"
     },
-    "affiliateUrl": "https://www.amazon.com/dp/B0C76MNHRZ?tag=nmbuilds-20",
+    "affiliateUrl": "https://www.amazon.com/dp/B0C76MNHRZ",
     "priceRange": { "min": 230, "max": 270 }
   },
   {
@@ -212,7 +212,7 @@
       "recommendedPSU": "550W",
       "target": "1080p Ultra / 1440p Medium"
     },
-    "affiliateUrl": "https://www.amazon.com/dp/B08W8DGK3X?tag=nmbuilds-20",
+    "affiliateUrl": "https://www.amazon.com/dp/B08W8DGK3X",
     "priceRange": { "min": 240, "max": 300 }
   },
   {
@@ -230,7 +230,7 @@
       "recommendedPSU": "650W",
       "target": "1440p Ultra"
     },
-    "affiliateUrl": "https://www.amazon.com/dp/B098VTBZDY?tag=nmbuilds-20",
+    "affiliateUrl": "https://www.amazon.com/dp/B098VTBZDY",
     "priceRange": { "min": 300, "max": 380 }
   },
   {
@@ -248,7 +248,7 @@
       "recommendedPSU": "700W",
       "target": "1440p Ultra"
     },
-    "affiliateUrl": "https://www.amazon.com/dp/B0CFJ3GWH8?tag=nmbuilds-20",
+    "affiliateUrl": "https://www.amazon.com/dp/B0CFJ3GWH8",
     "priceRange": { "min": 440, "max": 510 }
   },
   {
@@ -266,7 +266,7 @@
       "recommendedPSU": "650W",
       "target": "1440p Ultra / 4K High"
     },
-    "affiliateUrl": "https://www.amazon.com/dp/B0BZNHF7QQ?tag=nmbuilds-20",
+    "affiliateUrl": "https://www.amazon.com/dp/B0BZNHF7QQ",
     "priceRange": { "min": 540, "max": 620 }
   },
   {
@@ -284,7 +284,7 @@
       "recommendedPSU": "700W",
       "target": "4K Ultra"
     },
-    "affiliateUrl": "https://www.amazon.com/dp/B0BRCVZ56J?tag=nmbuilds-20",
+    "affiliateUrl": "https://www.amazon.com/dp/B0BRCVZ56J",
     "priceRange": { "min": 740, "max": 820 }
   },
   {
@@ -302,7 +302,7 @@
       "recommendedPSU": "850W",
       "target": "4K Ultra / 8K"
     },
-    "affiliateUrl": "https://www.amazon.com/dp/B0BG94ZVR5?tag=nmbuilds-20",
+    "affiliateUrl": "https://www.amazon.com/dp/B0BG94ZVR5",
     "priceRange": { "min": 1550, "max": 1800 }
   },
   {
@@ -319,7 +319,7 @@
       "latency": "CL16",
       "voltage": "1.35V"
     },
-    "affiliateUrl": "https://www.amazon.com/dp/B0143UM4TC?tag=nmbuilds-20",
+    "affiliateUrl": "https://www.amazon.com/dp/B0143UM4TC",
     "priceRange": { "min": 35, "max": 50 }
   },
   {
@@ -336,7 +336,7 @@
       "latency": "CL22",
       "voltage": "1.2V"
     },
-    "affiliateUrl": "https://www.amazon.com/dp/B08C4Y2RHF?tag=nmbuilds-20",
+    "affiliateUrl": "https://www.amazon.com/dp/B08C4Y2RHF",
     "priceRange": { "min": 55, "max": 75 }
   },
   {
@@ -353,7 +353,7 @@
       "latency": "CL30",
       "voltage": "1.35V"
     },
-    "affiliateUrl": "https://www.amazon.com/dp/B09NMPJXWL?tag=nmbuilds-20",
+    "affiliateUrl": "https://www.amazon.com/dp/B09NMPJXWL",
     "priceRange": { "min": 90, "max": 120 }
   },
   {
@@ -370,7 +370,7 @@
       "latency": "CL30",
       "voltage": "1.35V"
     },
-    "affiliateUrl": "https://www.amazon.com/dp/B09S2ZPR98?tag=nmbuilds-20",
+    "affiliateUrl": "https://www.amazon.com/dp/B09S2ZPR98",
     "priceRange": { "min": 170, "max": 220 }
   },
   {
@@ -387,7 +387,7 @@
       "latency": "CL38",
       "voltage": "1.25V"
     },
-    "affiliateUrl": "https://www.amazon.com/dp/B0B5HJVKRB?tag=nmbuilds-20",
+    "affiliateUrl": "https://www.amazon.com/dp/B0B5HJVKRB",
     "priceRange": { "min": 55, "max": 75 }
   },
   {
@@ -404,7 +404,7 @@
       "writeSpeed": "510 MB/s",
       "type": "SATA SSD"
     },
-    "affiliateUrl": "https://www.amazon.com/dp/B077SF8KMG?tag=nmbuilds-20",
+    "affiliateUrl": "https://www.amazon.com/dp/B077SF8KMG",
     "priceRange": { "min": 55, "max": 75 }
   },
   {
@@ -421,7 +421,7 @@
       "writeSpeed": "3000 MB/s",
       "type": "NVMe SSD"
     },
-    "affiliateUrl": "https://www.amazon.com/dp/B08V83JZH4?tag=nmbuilds-20",
+    "affiliateUrl": "https://www.amazon.com/dp/B08V83JZH4",
     "priceRange": { "min": 65, "max": 90 }
   },
   {
@@ -438,7 +438,7 @@
       "writeSpeed": "4900 MB/s",
       "type": "NVMe Gen4 SSD"
     },
-    "affiliateUrl": "https://www.amazon.com/dp/B09QVD9V7R?tag=nmbuilds-20",
+    "affiliateUrl": "https://www.amazon.com/dp/B09QVD9V7R",
     "priceRange": { "min": 80, "max": 110 }
   },
   {
@@ -455,7 +455,7 @@
       "writeSpeed": "6900 MB/s",
       "type": "NVMe Gen4 SSD"
     },
-    "affiliateUrl": "https://www.amazon.com/dp/B0BHJJ9Y77?tag=nmbuilds-20",
+    "affiliateUrl": "https://www.amazon.com/dp/B0BHJJ9Y77",
     "priceRange": { "min": 150, "max": 190 }
   },
   {
@@ -472,7 +472,7 @@
       "writeSpeed": "6600 MB/s",
       "type": "NVMe Gen4 SSD"
     },
-    "affiliateUrl": "https://www.amazon.com/dp/B09QVD9V7S?tag=nmbuilds-20",
+    "affiliateUrl": "https://www.amazon.com/dp/B09QVD9V7S",
     "priceRange": { "min": 160, "max": 200 }
   },
   {
@@ -491,7 +491,7 @@
       "pcie": "PCIe 5.0 x16",
       "wifi": "Wi-Fi 6E"
     },
-    "affiliateUrl": "https://www.amazon.com/dp/B0BSJQSTXB?tag=nmbuilds-20",
+    "affiliateUrl": "https://www.amazon.com/dp/B0BSJQSTXB",
     "priceRange": { "min": 120, "max": 150 }
   },
   {
@@ -510,7 +510,7 @@
       "pcie": "PCIe 4.0 x16",
       "wifi": "None"
     },
-    "affiliateUrl": "https://www.amazon.com/dp/B08FXQXLWH?tag=nmbuilds-20",
+    "affiliateUrl": "https://www.amazon.com/dp/B08FXQXLWH",
     "priceRange": { "min": 110, "max": 145 }
   },
   {
@@ -529,7 +529,7 @@
       "pcie": "PCIe 5.0 x16",
       "wifi": "Wi-Fi 6"
     },
-    "affiliateUrl": "https://www.amazon.com/dp/B0BG3R33QQ?tag=nmbuilds-20",
+    "affiliateUrl": "https://www.amazon.com/dp/B0BG3R33QQ",
     "priceRange": { "min": 170, "max": 210 }
   },
   {
@@ -548,7 +548,7 @@
       "pcie": "PCIe 5.0 x16",
       "wifi": "Wi-Fi 6E"
     },
-    "affiliateUrl": "https://www.amazon.com/dp/B0BHX7GNHS?tag=nmbuilds-20",
+    "affiliateUrl": "https://www.amazon.com/dp/B0BHX7GNHS",
     "priceRange": { "min": 560, "max": 640 }
   },
   {
@@ -567,7 +567,7 @@
       "pcie": "PCIe 5.0 x16",
       "wifi": "Wi-Fi 6E"
     },
-    "affiliateUrl": "https://www.amazon.com/dp/B0BDNZMQDS?tag=nmbuilds-20",
+    "affiliateUrl": "https://www.amazon.com/dp/B0BDNZMQDS",
     "priceRange": { "min": 500, "max": 600 }
   },
   {
@@ -583,7 +583,7 @@
       "fanSize": "120mm",
       "protections": "OVP, UVP, OCP, OPP, SCP"
     },
-    "affiliateUrl": "https://www.amazon.com/dp/B0B1WBXQVG?tag=nmbuilds-20",
+    "affiliateUrl": "https://www.amazon.com/dp/B0B1WBXQVG",
     "priceRange": { "min": 65, "max": 85 }
   },
   {
@@ -599,7 +599,7 @@
       "fanSize": "120mm",
       "protections": "OVP, UVP, OCP, OPP, SCP, OTP"
     },
-    "affiliateUrl": "https://www.amazon.com/dp/B08F7WLFB7?tag=nmbuilds-20",
+    "affiliateUrl": "https://www.amazon.com/dp/B08F7WLFB7",
     "priceRange": { "min": 100, "max": 130 }
   },
   {
@@ -615,7 +615,7 @@
       "fanSize": "140mm",
       "protections": "OVP, UVP, OCP, OPP, SCP, OTP"
     },
-    "affiliateUrl": "https://www.amazon.com/dp/B0B98NRB2D?tag=nmbuilds-20",
+    "affiliateUrl": "https://www.amazon.com/dp/B0B98NRB2D",
     "priceRange": { "min": 115, "max": 145 }
   },
   {
@@ -631,7 +631,7 @@
       "fanSize": "135mm",
       "protections": "OVP, UVP, OCP, OPP, SCP, OTP"
     },
-    "affiliateUrl": "https://www.amazon.com/dp/B07H7GX8HX?tag=nmbuilds-20",
+    "affiliateUrl": "https://www.amazon.com/dp/B07H7GX8HX",
     "priceRange": { "min": 180, "max": 230 }
   },
   {
@@ -649,7 +649,7 @@
       "driveBays": "2x3.5\" + 2x2.5\"",
       "includedFans": "1x120mm"
     },
-    "affiliateUrl": "https://www.amazon.com/dp/B07RWCWB16?tag=nmbuilds-20",
+    "affiliateUrl": "https://www.amazon.com/dp/B07RWCWB16",
     "priceRange": { "min": 55, "max": 75 }
   },
   {
@@ -667,7 +667,7 @@
       "driveBays": "2x3.5\" + 4x2.5\"",
       "includedFans": "2x120mm"
     },
-    "affiliateUrl": "https://www.amazon.com/dp/B07T7STQ89?tag=nmbuilds-20",
+    "affiliateUrl": "https://www.amazon.com/dp/B07T7STQ89",
     "priceRange": { "min": 70, "max": 100 }
   },
   {
@@ -685,7 +685,7 @@
       "driveBays": "2x3.5\" + 3x2.5\"",
       "includedFans": "2x120mm"
     },
-    "affiliateUrl": "https://www.amazon.com/dp/B074DQCSK8?tag=nmbuilds-20",
+    "affiliateUrl": "https://www.amazon.com/dp/B074DQCSK8",
     "priceRange": { "min": 85, "max": 115 }
   },
   {
@@ -703,7 +703,7 @@
       "driveBays": "3x3.5\" + 9x2.5\"",
       "includedFans": "3x140mm"
     },
-    "affiliateUrl": "https://www.amazon.com/dp/B08H4FKVFM?tag=nmbuilds-20",
+    "affiliateUrl": "https://www.amazon.com/dp/B08H4FKVFM",
     "priceRange": { "min": 150, "max": 185 }
   },
   {
@@ -721,7 +721,7 @@
       "driveBays": "2x3.5\" + 6x2.5\"",
       "includedFans": "0 (fan slots for 10)"
     },
-    "affiliateUrl": "https://www.amazon.com/dp/B0B8BP4RKH?tag=nmbuilds-20",
+    "affiliateUrl": "https://www.amazon.com/dp/B0B8BP4RKH",
     "priceRange": { "min": 130, "max": 165 }
   }
 ]

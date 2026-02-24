@@ -10,7 +10,6 @@ export const metadata: Metadata = {
   },
   description:
     "Structured PC build recommendations for gamers, students, developers, and content creators. Every build is optimized for your budget tier and use case.",
-  metadataBase: new URL("https://nmbuilds.com"),
   openGraph: {
     type: "website",
     siteName: "NM Builds",
@@ -30,12 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="bg-zinc-950 text-zinc-100">
       <head>
-        {/* Cloudflare Web Analytics */}
-        <script
-          defer
-          src="https://static.cloudflareinsights.com/beacon.min.js"
-          data-cf-beacon='{"token": "REPLACE_WITH_YOUR_CF_ANALYTICS_TOKEN"}'
-        />
+        {/* TODO: Add Cloudflare Web Analytics script here once token is available */}
       </head>
       <body className="min-h-screen font-mono antialiased">
         <header className="border-b border-zinc-800 bg-zinc-950 sticky top-0 z-10">

@@ -62,7 +62,6 @@ export default function BuildPage({ params }: Props) {
     author: { "@type": "Organization", name: "NM Builds" },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://nmbuilds.com/builds/${build.slug}/`,
     },
     about: build.products.map((p) => ({
       "@type": "Product",
