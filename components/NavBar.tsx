@@ -16,8 +16,8 @@ export default function NavBar() {
           <Image
             src={assetPath("/images/logo-mark.svg")}
             alt="NM Builds logo"
-            width={28}
-            height={28}
+            width={42}
+            height={42}
             className="rounded-md"
             priority
           />
