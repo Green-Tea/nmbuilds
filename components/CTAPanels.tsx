@@ -7,18 +7,18 @@ export default function CTAPanels() {
       <div className="grid grid-cols-1 gap-5 md:grid-cols-2">
         <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
           <div className="relative h-44 w-full">
-            <Image src="/images/cta-comparisons.svg" alt="" fill className="object-cover" />
+            <Image src="/images/featured-gamer.svg" alt="" fill className="object-cover" />
           </div>
           <div className="p-6">
-            <h3 className="text-lg font-semibold text-slate-900">Build comparisons</h3>
+            <h3 className="text-lg font-semibold text-slate-900">Browse all builds</h3>
             <p className="mt-2 text-sm text-slate-600">
-              Compare setups side-by-side to find the best fit.
+              Explore every build in one place and filter by your needs.
             </p>
             <Link
-              href="/comparisons"
+              href="/builds"
               className="mt-5 inline-flex rounded-lg bg-blue-600 px-4 py-2 text-sm font-semibold text-white hover:bg-blue-500"
             >
-              View comparisons
+              View builds
             </Link>
           </div>
         </div>

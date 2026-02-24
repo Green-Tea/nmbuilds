@@ -23,10 +23,10 @@ export default function Hero() {
               Browse builds
             </Link>
             <Link
-              href="/comparisons"
+              href="/guides"
               className="rounded-lg border border-white/25 bg-white/5 px-5 py-2.5 text-sm font-semibold hover:bg-white/10"
             >
-              Compare setups
+              Read guides
             </Link>
           </div>
         </div>
