@@ -1,4 +1,6 @@
+import Image from "next/image";
 import Link from "next/link";
+import { assetPath } from "@/lib/assetPath";
 
 const navItems = [
   { href: "/builds", label: "Builds" },
@@ -10,8 +12,18 @@ export default function NavBar() {
   return (
     <header className="sticky top-0 z-50 border-b border-slate-700/60 bg-slate-900/90 backdrop-blur">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4">
-        <Link href="/" className="text-lg font-semibold tracking-tight text-white">
-          <span className="font-bold">nm</span> builds
+        <Link href="/" className="flex items-center gap-2 text-lg font-semibold tracking-tight text-white">
+          <Image
+            src={assetPath("/images/logo-mark.svg")}
+            alt="NM Builds logo"
+            width={28}
+            height={28}
+            className="rounded-md"
+            priority
+          />
+          <span>
+            <span className="font-bold">nm</span> builds
+          </span>
         </Link>
 
         <nav aria-label="Primary" className="hidden items-center gap-8 md:flex">

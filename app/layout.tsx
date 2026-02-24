@@ -8,6 +8,11 @@ export const metadata: Metadata = {
   },
   description:
     "Structured PC build recommendations for gamers, students, developers, and content creators. Every build is optimized for your budget tier and use case.",
+  icons: {
+    icon: "/icon.svg",
+    shortcut: "/icon.svg",
+    apple: "/icon.svg",
+  },
   openGraph: {
     type: "website",
     siteName: "NM Builds",
