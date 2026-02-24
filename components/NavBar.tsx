@@ -14,7 +14,7 @@ export default function NavBar() {
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4">
         <Link href="/" className="flex items-center gap-2 text-lg font-semibold tracking-tight text-white">
           <Image
-            src={assetPath("/images/logo-mark.svg")}
+            src={assetPath("/images/logo-mark.png")}
             alt="NM Builds logo"
             width={42}
             height={42}
