@@ -1,0 +1,354 @@
+[
+  {
+    "id": "gamer-budget",
+    "slug": "budget-gaming-pc-build",
+    "title": "Budget Gaming PC Build – Best $500 Gaming Computer 2024",
+    "userType": "gamer",
+    "budgetTier": "budget",
+    "description": "The best budget gaming PC build under $500 delivers solid 1080p performance at high settings. Paired with the Intel Core i3-12100F and RX 7600, this build is a smart entry-point for PC gaming without overspending.",
+    "productIds": [
+      "cpu-intel-i3-12100f",
+      "gpu-amd-rx7600",
+      "ram-corsair-16gb-ddr4-3200",
+      "ssd-samsung-980-1tb",
+      "mobo-msi-b760m-pro",
+      "psu-corsair-cx650m",
+      "case-phanteks-p300a"
+    ],
+    "lastUpdated": "2024-01-15"
+  },
+  {
+    "id": "gamer-mid",
+    "slug": "mid-range-gaming-pc-build",
+    "title": "Mid-Range Gaming PC Build – Best $800 Gaming Computer 2024",
+    "userType": "gamer",
+    "budgetTier": "mid",
+    "description": "The ideal mid-range gaming PC build around $800 hits a performance sweet spot. The Intel Core i5-13400F paired with the RTX 3060 delivers 1080p Ultra and 1440p medium gameplay.",
+    "productIds": [
+      "cpu-intel-i5-13400f",
+      "gpu-nvidia-rtx3060",
+      "ram-crucial-32gb-ddr4-3200",
+      "ssd-wd-black-sn770-1tb",
+      "mobo-msi-b760m-pro",
+      "psu-seasonic-focus-750w-gold",
+      "case-nzxt-h510"
+    ],
+    "lastUpdated": "2024-01-15"
+  },
+  {
+    "id": "gamer-upper-mid",
+    "slug": "upper-mid-range-gaming-pc-build",
+    "title": "Upper Mid-Range Gaming PC Build – Best $1,200 Gaming Computer 2024",
+    "userType": "gamer",
+    "budgetTier": "upper-mid",
+    "description": "A highly capable upper mid-range gaming build around $1,200. The Ryzen 5 7600X paired with the RTX 3070 on a B650 platform handles 1440p Ultra gaming with headroom to spare.",
+    "productIds": [
+      "cpu-amd-ryzen5-7600x",
+      "gpu-nvidia-rtx3070",
+      "ram-gskill-32gb-ddr5-6000",
+      "ssd-wd-black-sn770-1tb",
+      "mobo-asus-b650-plus-wifi",
+      "psu-seasonic-focus-750w-gold",
+      "case-fractal-meshify-c"
+    ],
+    "lastUpdated": "2024-01-15"
+  },
+  {
+    "id": "gamer-high-end",
+    "slug": "high-end-gaming-pc-build",
+    "title": "High-End Gaming PC Build – Best $2,000 Gaming Computer 2024",
+    "userType": "gamer",
+    "budgetTier": "high-end",
+    "description": "A top-tier high-end gaming PC for 1440p and 4K play. The Intel Core i7-13700K combined with the RTX 4070 produces buttery-smooth framerates in demanding AAA titles.",
+    "productIds": [
+      "cpu-intel-i7-13700k",
+      "gpu-nvidia-rtx4070",
+      "ram-gskill-32gb-ddr5-6000",
+      "ssd-samsung-990pro-2tb",
+      "mobo-asus-z790-hero",
+      "psu-corsair-rm850e",
+      "case-fractal-meshify2"
+    ],
+    "lastUpdated": "2024-01-15"
+  },
+  {
+    "id": "gamer-extreme",
+    "slug": "extreme-gaming-pc-build",
+    "title": "Extreme Gaming PC Build – Ultimate $3,500 Gaming Computer 2024",
+    "userType": "gamer",
+    "budgetTier": "extreme",
+    "description": "The no-compromise extreme gaming build. The Intel Core i9-13900K and RTX 4090 represent the absolute peak of single-threaded gaming performance, ideal for 4K 144Hz and beyond.",
+    "productIds": [
+      "cpu-intel-i9-13900k",
+      "gpu-nvidia-rtx4090",
+      "ram-gskill-64gb-ddr5-6000",
+      "ssd-wd-black-sn850x-2tb",
+      "mobo-asus-z790-hero",
+      "psu-seasonic-prime-1000w-platinum",
+      "case-lian-li-o11-dynamic"
+    ],
+    "lastUpdated": "2024-01-15"
+  },
+  {
+    "id": "student-budget",
+    "slug": "budget-student-pc-build",
+    "title": "Budget Student PC Build – Best $450 Study Computer 2024",
+    "userType": "student",
+    "budgetTier": "budget",
+    "description": "An affordable student PC build under $450 covering web browsing, documents, video calls, and light coding. The Ryzen 5 5600 on an AM4 platform provides reliable everyday performance without a dedicated GPU.",
+    "productIds": [
+      "cpu-amd-ryzen5-5600",
+      "ram-corsair-16gb-ddr4-3200",
+      "ssd-crucial-mx500-1tb",
+      "mobo-gigabyte-b550m-aorus",
+      "psu-corsair-cx650m",
+      "case-phanteks-p300a"
+    ],
+    "lastUpdated": "2024-01-15"
+  },
+  {
+    "id": "student-mid",
+    "slug": "mid-range-student-pc-build",
+    "title": "Mid-Range Student PC Build – Best $700 Study Computer 2024",
+    "userType": "student",
+    "budgetTier": "mid",
+    "description": "A balanced mid-range student PC for demanding coursework, light game dev, and multimedia projects. The Intel Core i5-13400F provides excellent multi-threaded performance for compiling and data tasks.",
+    "productIds": [
+      "cpu-intel-i5-13400f",
+      "ram-crucial-32gb-ddr4-3200",
+      "ssd-wd-black-sn770-1tb",
+      "mobo-msi-b760m-pro",
+      "psu-seasonic-focus-750w-gold",
+      "case-nzxt-h510"
+    ],
+    "lastUpdated": "2024-01-15"
+  },
+  {
+    "id": "student-upper-mid",
+    "slug": "upper-mid-range-student-pc-build",
+    "title": "Upper Mid-Range Student PC Build – Best $1,100 Study Computer 2024",
+    "userType": "student",
+    "budgetTier": "upper-mid",
+    "description": "An upper mid-range student build well-suited for engineering, computer science, and creative coursework. The Ryzen 5 7600X combined with 32GB DDR5 ensures smooth multitasking across VMs and workloads.",
+    "productIds": [
+      "cpu-amd-ryzen5-7600x",
+      "ram-gskill-32gb-ddr5-6000",
+      "ssd-samsung-990pro-2tb",
+      "mobo-asus-b650-plus-wifi",
+      "psu-seasonic-focus-750w-gold",
+      "case-fractal-meshify-c"
+    ],
+    "lastUpdated": "2024-01-15"
+  },
+  {
+    "id": "student-high-end",
+    "slug": "high-end-student-pc-build",
+    "title": "High-End Student PC Build – Best $1,600 Study Computer 2024",
+    "userType": "student",
+    "budgetTier": "high-end",
+    "description": "A high-end student workstation for intensive programs like machine learning, simulation, or video editing. The Ryzen 7 7700X with an RX 7800 XT balances compute and GPU performance.",
+    "productIds": [
+      "cpu-amd-ryzen7-7700x",
+      "gpu-amd-rx7800xt",
+      "ram-gskill-32gb-ddr5-6000",
+      "ssd-samsung-990pro-2tb",
+      "mobo-asus-b650-plus-wifi",
+      "psu-corsair-rm850e",
+      "case-fractal-meshify2"
+    ],
+    "lastUpdated": "2024-01-15"
+  },
+  {
+    "id": "student-extreme",
+    "slug": "extreme-student-pc-build",
+    "title": "Extreme Student Workstation Build – Ultimate $3,000 Study PC 2024",
+    "userType": "student",
+    "budgetTier": "extreme",
+    "description": "An extreme student workstation for doctoral research, full-stack development, or ML model training. The Ryzen 9 7950X with 64GB DDR5 handles the most compute-intensive academic tasks.",
+    "productIds": [
+      "cpu-amd-ryzen9-7950x",
+      "gpu-amd-rx7800xt",
+      "ram-gskill-64gb-ddr5-6000",
+      "ssd-wd-black-sn850x-2tb",
+      "mobo-msi-x670e-ace",
+      "psu-seasonic-prime-1000w-platinum",
+      "case-lian-li-o11-dynamic"
+    ],
+    "lastUpdated": "2024-01-15"
+  },
+  {
+    "id": "developer-budget",
+    "slug": "budget-developer-pc-build",
+    "title": "Budget Developer PC Build – Best $550 Programming Computer 2024",
+    "userType": "developer",
+    "budgetTier": "budget",
+    "description": "A capable budget developer PC focused on code compilation, terminal use, and light Docker workflows. The Intel Core i5-13400F gives strong single-core and multi-core results at an accessible price.",
+    "productIds": [
+      "cpu-intel-i5-13400f",
+      "ram-crucial-32gb-ddr4-3200",
+      "ssd-wd-black-sn770-1tb",
+      "mobo-msi-b760m-pro",
+      "psu-corsair-cx650m",
+      "case-phanteks-p300a"
+    ],
+    "lastUpdated": "2024-01-15"
+  },
+  {
+    "id": "developer-mid",
+    "slug": "mid-range-developer-pc-build",
+    "title": "Mid-Range Developer PC Build – Best $900 Programming Computer 2024",
+    "userType": "developer",
+    "budgetTier": "mid",
+    "description": "A solid mid-range developer build ideal for web development, CI pipelines, and containerized workloads. The Ryzen 5 7600X on AM5 pairs speed with a DDR5 memory platform ready for the future.",
+    "productIds": [
+      "cpu-amd-ryzen5-7600x",
+      "ram-gskill-32gb-ddr5-6000",
+      "ssd-samsung-990pro-2tb",
+      "mobo-asus-b650-plus-wifi",
+      "psu-seasonic-focus-750w-gold",
+      "case-nzxt-h510"
+    ],
+    "lastUpdated": "2024-01-15"
+  },
+  {
+    "id": "developer-upper-mid",
+    "slug": "upper-mid-range-developer-pc-build",
+    "title": "Upper Mid-Range Developer PC Build – Best $1,300 Programming Computer 2024",
+    "userType": "developer",
+    "budgetTier": "upper-mid",
+    "description": "An upper mid-range developer build for full-stack engineers running multiple VMs, databases, and IDE processes simultaneously. The Intel Core i5-13600K strikes an ideal balance of cores and clock speed.",
+    "productIds": [
+      "cpu-intel-i5-13600k",
+      "ram-gskill-32gb-ddr5-6000",
+      "ssd-samsung-990pro-2tb",
+      "mobo-asus-z790-hero",
+      "psu-seasonic-focus-750w-gold",
+      "case-fractal-meshify-c"
+    ],
+    "lastUpdated": "2024-01-15"
+  },
+  {
+    "id": "developer-high-end",
+    "slug": "high-end-developer-pc-build",
+    "title": "High-End Developer PC Build – Best $2,200 Programming Computer 2024",
+    "userType": "developer",
+    "budgetTier": "high-end",
+    "description": "A high-end developer workstation for cloud engineers, systems programmers, and data engineers. The Ryzen 9 7900X with 64GB DDR5 handles massive builds and multi-service environments effortlessly.",
+    "productIds": [
+      "cpu-amd-ryzen9-7900x",
+      "ram-gskill-64gb-ddr5-6000",
+      "ssd-wd-black-sn850x-2tb",
+      "mobo-msi-x670e-ace",
+      "psu-corsair-rm850e",
+      "case-fractal-meshify2"
+    ],
+    "lastUpdated": "2024-01-15"
+  },
+  {
+    "id": "developer-extreme",
+    "slug": "extreme-developer-pc-build",
+    "title": "Extreme Developer Workstation Build – Ultimate $4,000 Programming PC 2024",
+    "userType": "developer",
+    "budgetTier": "extreme",
+    "description": "The ultimate developer workstation. The Ryzen 9 7950X's 16 cores handle anything from LLVM compilation to running dozens of Docker containers. 64GB DDR5 and Gen4 NVMe storage eliminate all bottlenecks.",
+    "productIds": [
+      "cpu-amd-ryzen9-7950x",
+      "ram-gskill-64gb-ddr5-6000",
+      "ssd-wd-black-sn850x-2tb",
+      "mobo-msi-x670e-ace",
+      "psu-seasonic-prime-1000w-platinum",
+      "case-lian-li-o11-dynamic"
+    ],
+    "lastUpdated": "2024-01-15"
+  },
+  {
+    "id": "creator-budget",
+    "slug": "budget-content-creator-pc-build",
+    "title": "Budget Content Creator PC Build – Best $650 Creator Computer 2024",
+    "userType": "creator",
+    "budgetTier": "budget",
+    "description": "An affordable content creator PC for YouTube, streaming, and photo editing. The Intel Core i5-13400F offers strong multi-threaded encode performance paired with the RTX 3060 for GPU-accelerated exports.",
+    "productIds": [
+      "cpu-intel-i5-13400f",
+      "gpu-nvidia-rtx3060",
+      "ram-crucial-32gb-ddr4-3200",
+      "ssd-wd-black-sn770-1tb",
+      "mobo-msi-b760m-pro",
+      "psu-seasonic-focus-750w-gold",
+      "case-phanteks-p300a"
+    ],
+    "lastUpdated": "2024-01-15"
+  },
+  {
+    "id": "creator-mid",
+    "slug": "mid-range-content-creator-pc-build",
+    "title": "Mid-Range Content Creator PC Build – Best $1,000 Creator Computer 2024",
+    "userType": "creator",
+    "budgetTier": "mid",
+    "description": "A capable mid-range creator build for 1080p and 4K video editing, motion graphics, and OBS streaming. The Ryzen 7 7700X pairs well with the RX 7800 XT for GPU-accelerated creative workflows.",
+    "productIds": [
+      "cpu-amd-ryzen7-7700x",
+      "gpu-amd-rx7800xt",
+      "ram-gskill-32gb-ddr5-6000",
+      "ssd-samsung-990pro-2tb",
+      "mobo-asus-b650-plus-wifi",
+      "psu-corsair-rm850e",
+      "case-nzxt-h510"
+    ],
+    "lastUpdated": "2024-01-15"
+  },
+  {
+    "id": "creator-upper-mid",
+    "slug": "upper-mid-range-content-creator-pc-build",
+    "title": "Upper Mid-Range Content Creator PC Build – Best $1,600 Creator Computer 2024",
+    "userType": "creator",
+    "budgetTier": "upper-mid",
+    "description": "An upper mid-range creator build ready for 4K video editing, After Effects, and 3D rendering. The Intel Core i7-13700K's 16 cores accelerate render times while the RTX 4070 handles GPU compute.",
+    "productIds": [
+      "cpu-intel-i7-13700k",
+      "gpu-nvidia-rtx4070",
+      "ram-gskill-32gb-ddr5-6000",
+      "ssd-samsung-990pro-2tb",
+      "mobo-asus-z790-hero",
+      "psu-corsair-rm850e",
+      "case-fractal-meshify-c"
+    ],
+    "lastUpdated": "2024-01-15"
+  },
+  {
+    "id": "creator-high-end",
+    "slug": "high-end-content-creator-pc-build",
+    "title": "High-End Content Creator PC Build – Best $2,500 Creator Computer 2024",
+    "userType": "creator",
+    "budgetTier": "high-end",
+    "description": "A high-end professional creator workstation for RED/BRAW 8K editing, Cinema 4D, and multi-stream recording. The Ryzen 9 7900X and RTX 4070 Ti form a powerful combination for demanding creative production.",
+    "productIds": [
+      "cpu-amd-ryzen9-7900x",
+      "gpu-nvidia-rtx4070ti",
+      "ram-gskill-64gb-ddr5-6000",
+      "ssd-wd-black-sn850x-2tb",
+      "mobo-msi-x670e-ace",
+      "psu-seasonic-prime-1000w-platinum",
+      "case-fractal-meshify2"
+    ],
+    "lastUpdated": "2024-01-15"
+  },
+  {
+    "id": "creator-extreme",
+    "slug": "extreme-content-creator-pc-build",
+    "title": "Extreme Content Creator Workstation – Ultimate $5,000 Creator PC 2024",
+    "userType": "creator",
+    "budgetTier": "extreme",
+    "description": "The definitive creator workstation with zero compromises. The Ryzen 9 7950X and RTX 4090 power through 8K timelines, complex Blender scenes, and real-time GPU rendering simultaneously.",
+    "productIds": [
+      "cpu-amd-ryzen9-7950x",
+      "gpu-nvidia-rtx4090",
+      "ram-gskill-64gb-ddr5-6000",
+      "ssd-wd-black-sn850x-2tb",
+      "mobo-msi-x670e-ace",
+      "psu-seasonic-prime-1000w-platinum",
+      "case-lian-li-o11-dynamic"
+    ],
+    "lastUpdated": "2024-01-15"
+  }
+]
