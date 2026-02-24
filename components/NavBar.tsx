@@ -12,18 +12,15 @@ export default function NavBar() {
   return (
     <header className="sticky top-0 z-50 border-b border-slate-700/60 bg-slate-900/90 backdrop-blur">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4">
-        <Link href="/" className="flex items-center gap-2 text-lg font-semibold tracking-tight text-white">
+        <Link href="/" aria-label="nm builds home" className="flex items-center">
           <Image
-            src={assetPath("/images/logo-mark.png")}
-            alt="NM Builds logo"
-            width={42}
-            height={42}
-            className="rounded-md"
+            src={assetPath("/images/logo-wordmark.svg")}
+            alt="nm builds"
+            width={220}
+            height={50}
             priority
+            className="h-9 w-auto"
           />
-          <span>
-            <span className="font-bold">nm</span> builds
-          </span>
         </Link>
 
         <nav aria-label="Primary" className="hidden items-center gap-8 md:flex">
