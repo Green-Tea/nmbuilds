@@ -1,0 +1,26 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512' role='img' aria-label='NM Builds logo'>
+  <defs>
+    <linearGradient id='bg' x1='0' y1='0' x2='1' y2='1'>
+      <stop offset='0%' stop-color='#0ea5e9'/>
+      <stop offset='100%' stop-color='#86efac'/>
+    </linearGradient>
+    <linearGradient id='panel' x1='0' y1='0' x2='1' y2='1'>
+      <stop offset='0%' stop-color='#1d4f7a'/>
+      <stop offset='100%' stop-color='#1f3b5a'/>
+    </linearGradient>
+  </defs>
+
+  <rect x='60' y='60' width='392' height='392' rx='42' fill='url(#bg)'/>
+  <rect x='86' y='86' width='340' height='340' rx='16' fill='url(#panel)' opacity='0.95'/>
+
+  <path d='M150 170 L202 134 V378 H150 Z' fill='#0ea5e9' opacity='0.95'/>
+  <rect x='214' y='120' width='170' height='280' rx='20' fill='none' stroke='url(#bg)' stroke-width='14'/>
+
+  <circle cx='252' cy='178' r='8' fill='#67e8f9'/>
+  <rect x='272' y='171' width='84' height='14' rx='7' fill='#86efac'/>
+  <circle cx='252' cy='230' r='8' fill='#67e8f9'/>
+  <rect x='272' y='223' width='84' height='14' rx='7' fill='#86efac'/>
+
+  <circle cx='292' cy='306' r='30' fill='none' stroke='#67e8f9' stroke-width='10'/>
+  <line x1='292' y1='283' x2='292' y2='308' stroke='#67e8f9' stroke-width='10' stroke-linecap='round'/>
+</svg>

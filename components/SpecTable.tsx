@@ -8,19 +8,15 @@ export default function SpecTable({ specs, caption }: SpecTableProps) {
 
   return (
     <div className="overflow-x-auto">
-      <table className="w-full text-sm border-collapse">
-        {caption && (
-          <caption className="text-left text-xs text-zinc-500 mb-1">
-            {caption}
-          </caption>
-        )}
+      <table className="w-full border-collapse text-sm">
+        {caption && <caption className="mb-1 text-left text-xs text-slate-500">{caption}</caption>}
         <tbody>
           {entries.map(([key, value]) => (
-            <tr key={key} className="border-b border-zinc-800">
-              <td className="py-2 pr-4 font-medium text-zinc-400 whitespace-nowrap w-40">
+            <tr key={key} className="border-b border-slate-200">
+              <td className="w-40 whitespace-nowrap py-2 pr-4 font-medium text-slate-500">
                 {formatKey(key)}
               </td>
-              <td className="py-2 text-zinc-100">{String(value)}</td>
+              <td className="py-2 text-slate-900">{String(value)}</td>
             </tr>
           ))}
         </tbody>
