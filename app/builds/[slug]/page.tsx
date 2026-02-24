@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import Link from "next/link";
 import {
   getAllBuildSlugs,
   getBuildWithProducts,
@@ -9,6 +10,8 @@ import { getRelatedBuilds } from "@/lib/relations";
 import { getMarkdownForBuild } from "@/lib/markdown";
 import ProductList from "@/components/ProductList";
 import InternalLinkSection from "@/components/InternalLinkSection";
+import NavBar from "@/components/NavBar";
+import Footer from "@/components/Footer";
 import {
   USER_TYPE_LABELS,
   BUDGET_TIER_LABELS,
@@ -78,76 +81,74 @@ export default function BuildPage({ params }: Props) {
   };
 
   return (
-    <>
+    <div className="min-h-screen bg-slate-100 text-slate-900">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      <NavBar />
 
-      <header className="mb-10">
-        <div className="flex gap-2 flex-wrap mb-2">
-          <a
-            href={`/category/${build.userType}/`}
-            className="text-xs font-semibold uppercase tracking-wider bg-zinc-800 text-zinc-300 px-2 py-0.5 rounded hover:bg-zinc-700 transition-colors"
-          >
-            {USER_TYPE_LABELS[build.userType]}
-          </a>
-          <span className="text-xs font-semibold uppercase tracking-wider bg-zinc-800 text-zinc-300 px-2 py-0.5 rounded">
-            {BUDGET_TIER_LABELS[build.budgetTier]}
-          </span>
-          <span className="text-xs text-zinc-500 px-2 py-0.5">
-            {BUDGET_TIER_RANGES[build.budgetTier]}
-          </span>
-        </div>
+      <main className="mx-auto max-w-6xl px-4 py-10">
+        <header className="mb-10">
+          <div className="mb-2 flex flex-wrap gap-2">
+            <Link
+              href={`/category/${build.userType}/`}
+              className="rounded bg-slate-100 px-2 py-0.5 text-xs font-semibold uppercase tracking-wider text-slate-700 transition-colors hover:bg-slate-200"
+            >
+              {USER_TYPE_LABELS[build.userType]}
+            </Link>
+            <span className="rounded bg-slate-100 px-2 py-0.5 text-xs font-semibold uppercase tracking-wider text-slate-700">
+              {BUDGET_TIER_LABELS[build.budgetTier]}
+            </span>
+            <span className="px-2 py-0.5 text-xs text-slate-500">
+              {BUDGET_TIER_RANGES[build.budgetTier]}
+            </span>
+          </div>
 
-        <h1 className="text-2xl font-bold text-zinc-100 mb-3">{build.title}</h1>
-        <p className="text-zinc-400 text-sm max-w-2xl">{build.description}</p>
+          <h1 className="mb-3 text-3xl font-bold text-slate-900">{build.title}</h1>
+          <p className="max-w-2xl text-sm text-slate-600">{build.description}</p>
 
-        <div className="mt-4 text-sm text-zinc-300">
-          <span className="font-medium">Estimated total:</span>{" "}
-          <span className="text-amber-400 font-semibold">
-            ${price.min.toLocaleString()} – ${price.max.toLocaleString()}
-          </span>
-          <span className="text-xs text-zinc-500 ml-2">
-            (prices approximate, check links for current pricing)
-          </span>
-        </div>
+          <div className="mt-4 text-sm text-slate-700">
+            <span className="font-medium">Estimated total:</span>{" "}
+            <span className="font-semibold text-blue-700">
+              ${price.min.toLocaleString()} – ${price.max.toLocaleString()}
+            </span>
+            <span className="ml-2 text-xs text-slate-500">
+              (prices approximate, check links for current pricing)
+            </span>
+          </div>
 
-        <p className="text-xs text-zinc-600 mt-1">
-          Last updated: {build.lastUpdated}
-        </p>
-      </header>
+          <p className="mt-1 text-xs text-slate-500">Last updated: {build.lastUpdated}</p>
+        </header>
 
-      <div className="space-y-12">
-        <ProductList products={build.products} />
+        <div className="space-y-12">
+          <ProductList products={build.products} />
 
-        {markdown?.content && (
+          {markdown?.content && (
+            <section>
+              <h2 className="mb-4 text-xl font-bold text-slate-900">Build Notes</h2>
+              <div
+                className="prose prose-slate prose-sm max-w-none"
+                dangerouslySetInnerHTML={{ __html: markdownToHtml(markdown.content) }}
+              />
+            </section>
+          )}
+
           <section>
-            <h2 className="text-xl font-bold text-zinc-100 mb-4">
-              Build Notes
-            </h2>
-            <div
-              className="prose prose-invert prose-sm max-w-none text-zinc-300"
-              dangerouslySetInnerHTML={{ __html: markdownToHtml(markdown.content) }}
-            />
+            <h2 className="mb-4 text-xl font-bold text-slate-900">Frequently Asked Questions</h2>
+            <FaqSection build={build} price={price} />
           </section>
-        )}
 
-        <section>
-          <h2 className="text-xl font-bold text-zinc-100 mb-4">
-            Frequently Asked Questions
-          </h2>
-          <FaqSection build={build} price={price} />
-        </section>
+          <InternalLinkSection related={related} />
+        </div>
+      </main>
 
-        <InternalLinkSection related={related} />
-      </div>
-    </>
+      <Footer />
+    </div>
   );
 }
 
 function markdownToHtml(md: string): string {
-  // Minimal inline markdown → HTML conversion for build notes
   return md
     .replace(/^### (.+)$/gm, "<h3>$1</h3>")
     .replace(/^## (.+)$/gm, "<h2>$2</h2>")
@@ -177,7 +178,7 @@ function FaqSection({ build, price }: FaqProps) {
     },
     {
       q: "Can I upgrade this build later?",
-      a: `Yes. Most components can be upgraded independently. The motherboard socket and chipset determine CPU upgrade paths, while the PSU wattage and case clearance define GPU upgrade headroom.`,
+      a: "Yes. Most components can be upgraded independently. The motherboard socket and chipset determine CPU upgrade paths, while the PSU wattage and case clearance define GPU upgrade headroom.",
     },
     {
       q: "Are affiliate links included?",
@@ -203,9 +204,9 @@ function FaqSection({ build, price }: FaqProps) {
       />
       <dl className="space-y-4">
         {faqs.map(({ q, a }) => (
-          <div key={q} className="border border-zinc-800 rounded-lg p-4">
-            <dt className="text-sm font-semibold text-zinc-100 mb-1">{q}</dt>
-            <dd className="text-sm text-zinc-400">{a}</dd>
+          <div key={q} className="rounded-xl border border-slate-200 bg-white p-4 shadow-sm">
+            <dt className="mb-1 text-sm font-semibold text-slate-900">{q}</dt>
+            <dd className="text-sm text-slate-600">{a}</dd>
           </div>
         ))}
       </dl>
