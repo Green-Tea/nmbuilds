@@ -19,24 +19,17 @@ const CATEGORY_LABELS: Record<string, string> = {
 export default function ProductList({ products }: ProductListProps) {
   return (
     <section aria-label="Build component list">
-      <h2 className="text-xl font-bold text-zinc-100 mb-4">
-        Components &amp; Parts
-      </h2>
+      <h2 className="mb-4 text-xl font-bold text-slate-900">Components &amp; Parts</h2>
       <div className="space-y-6">
         {products.map((product) => (
-          <article
-            key={product.id}
-            className="border border-zinc-800 rounded-lg p-4 bg-zinc-900"
-          >
-            <div className="flex items-start justify-between gap-4 flex-wrap">
+          <article key={product.id} className="rounded-xl border border-slate-200 bg-white p-4 shadow-sm">
+            <div className="flex flex-wrap items-start justify-between gap-4">
               <div>
-                <span className="text-xs font-semibold uppercase tracking-wider text-zinc-500">
+                <span className="text-xs font-semibold uppercase tracking-wider text-slate-500">
                   {CATEGORY_LABELS[product.category] ?? product.category}
                 </span>
-                <h3 className="text-base font-semibold text-zinc-100 mt-0.5">
-                  {product.name}
-                </h3>
-                <p className="text-sm text-zinc-400 mt-0.5">
+                <h3 className="mt-0.5 text-base font-semibold text-slate-900">{product.name}</h3>
+                <p className="mt-0.5 text-sm text-slate-600">
                   ${product.priceRange.min} – ${product.priceRange.max}
                 </p>
               </div>
