@@ -1,0 +1,727 @@
+[
+  {
+    "id": "cpu-intel-i3-12100f",
+    "name": "Intel Core i3-12100F",
+    "category": "cpu",
+    "brand": "Intel",
+    "model": "Core i3-12100F",
+    "specs": {
+      "cores": 4,
+      "threads": 8,
+      "baseClock": "3.3 GHz",
+      "boostClock": "4.3 GHz",
+      "tdp": "58W",
+      "socket": "LGA1700",
+      "generation": "Alder Lake 12th Gen"
+    },
+    "affiliateUrl": "https://www.amazon.com/dp/B09NMPD8V2",
+    "priceRange": { "min": 90, "max": 120 }
+  },
+  {
+    "id": "cpu-amd-ryzen5-5600",
+    "name": "AMD Ryzen 5 5600",
+    "category": "cpu",
+    "brand": "AMD",
+    "model": "Ryzen 5 5600",
+    "specs": {
+      "cores": 6,
+      "threads": 12,
+      "baseClock": "3.5 GHz",
+      "boostClock": "4.4 GHz",
+      "tdp": "65W",
+      "socket": "AM4",
+      "generation": "Zen 3"
+    },
+    "affiliateUrl": "https://www.amazon.com/dp/B09VCHR1VH",
+    "priceRange": { "min": 120, "max": 160 }
+  },
+  {
+    "id": "cpu-intel-i5-13400f",
+    "name": "Intel Core i5-13400F",
+    "category": "cpu",
+    "brand": "Intel",
+    "model": "Core i5-13400F",
+    "specs": {
+      "cores": 10,
+      "threads": 16,
+      "baseClock": "2.5 GHz",
+      "boostClock": "4.6 GHz",
+      "tdp": "65W",
+      "socket": "LGA1700",
+      "generation": "Raptor Lake 13th Gen"
+    },
+    "affiliateUrl": "https://www.amazon.com/dp/B0BFB9H3VQ",
+    "priceRange": { "min": 180, "max": 230 }
+  },
+  {
+    "id": "cpu-amd-ryzen5-7600x",
+    "name": "AMD Ryzen 5 7600X",
+    "category": "cpu",
+    "brand": "AMD",
+    "model": "Ryzen 5 7600X",
+    "specs": {
+      "cores": 6,
+      "threads": 12,
+      "baseClock": "4.7 GHz",
+      "boostClock": "5.3 GHz",
+      "tdp": "105W",
+      "socket": "AM5",
+      "generation": "Zen 4"
+    },
+    "affiliateUrl": "https://www.amazon.com/dp/B0BBJDS62N",
+    "priceRange": { "min": 200, "max": 260 }
+  },
+  {
+    "id": "cpu-intel-i5-13600k",
+    "name": "Intel Core i5-13600K",
+    "category": "cpu",
+    "brand": "Intel",
+    "model": "Core i5-13600K",
+    "specs": {
+      "cores": 14,
+      "threads": 20,
+      "baseClock": "3.5 GHz",
+      "boostClock": "5.1 GHz",
+      "tdp": "125W",
+      "socket": "LGA1700",
+      "generation": "Raptor Lake 13th Gen"
+    },
+    "affiliateUrl": "https://www.amazon.com/dp/B0BCF54SR1",
+    "priceRange": { "min": 260, "max": 310 }
+  },
+  {
+    "id": "cpu-amd-ryzen7-7700x",
+    "name": "AMD Ryzen 7 7700X",
+    "category": "cpu",
+    "brand": "AMD",
+    "model": "Ryzen 7 7700X",
+    "specs": {
+      "cores": 8,
+      "threads": 16,
+      "baseClock": "4.5 GHz",
+      "boostClock": "5.4 GHz",
+      "tdp": "105W",
+      "socket": "AM5",
+      "generation": "Zen 4"
+    },
+    "affiliateUrl": "https://www.amazon.com/dp/B0BBJDVL61",
+    "priceRange": { "min": 290, "max": 360 }
+  },
+  {
+    "id": "cpu-intel-i7-13700k",
+    "name": "Intel Core i7-13700K",
+    "category": "cpu",
+    "brand": "Intel",
+    "model": "Core i7-13700K",
+    "specs": {
+      "cores": 16,
+      "threads": 24,
+      "baseClock": "3.4 GHz",
+      "boostClock": "5.4 GHz",
+      "tdp": "125W",
+      "socket": "LGA1700",
+      "generation": "Raptor Lake 13th Gen"
+    },
+    "affiliateUrl": "https://www.amazon.com/dp/B0BCF3R51L",
+    "priceRange": { "min": 360, "max": 430 }
+  },
+  {
+    "id": "cpu-amd-ryzen9-7900x",
+    "name": "AMD Ryzen 9 7900X",
+    "category": "cpu",
+    "brand": "AMD",
+    "model": "Ryzen 9 7900X",
+    "specs": {
+      "cores": 12,
+      "threads": 24,
+      "baseClock": "4.7 GHz",
+      "boostClock": "5.6 GHz",
+      "tdp": "170W",
+      "socket": "AM5",
+      "generation": "Zen 4"
+    },
+    "affiliateUrl": "https://www.amazon.com/dp/B0BBJDS3VN",
+    "priceRange": { "min": 420, "max": 500 }
+  },
+  {
+    "id": "cpu-intel-i9-13900k",
+    "name": "Intel Core i9-13900K",
+    "category": "cpu",
+    "brand": "Intel",
+    "model": "Core i9-13900K",
+    "specs": {
+      "cores": 24,
+      "threads": 32,
+      "baseClock": "3.0 GHz",
+      "boostClock": "5.8 GHz",
+      "tdp": "125W",
+      "socket": "LGA1700",
+      "generation": "Raptor Lake 13th Gen"
+    },
+    "affiliateUrl": "https://www.amazon.com/dp/B0BCF57W9W",
+    "priceRange": { "min": 530, "max": 620 }
+  },
+  {
+    "id": "cpu-amd-ryzen9-7950x",
+    "name": "AMD Ryzen 9 7950X",
+    "category": "cpu",
+    "brand": "AMD",
+    "model": "Ryzen 9 7950X",
+    "specs": {
+      "cores": 16,
+      "threads": 32,
+      "baseClock": "4.5 GHz",
+      "boostClock": "5.7 GHz",
+      "tdp": "170W",
+      "socket": "AM5",
+      "generation": "Zen 4"
+    },
+    "affiliateUrl": "https://www.amazon.com/dp/B0BBJDDSQX",
+    "priceRange": { "min": 600, "max": 720 }
+  },
+  {
+    "id": "gpu-amd-rx7600",
+    "name": "AMD Radeon RX 7600",
+    "category": "gpu",
+    "brand": "AMD",
+    "model": "Radeon RX 7600",
+    "specs": {
+      "vram": "8GB GDDR6",
+      "memoryBus": "128-bit",
+      "baseClock": "1720 MHz",
+      "boostClock": "2655 MHz",
+      "tdp": "165W",
+      "recommendedPSU": "550W",
+      "target": "1080p High"
+    },
+    "affiliateUrl": "https://www.amazon.com/dp/B0C76MNHRZ",
+    "priceRange": { "min": 230, "max": 270 }
+  },
+  {
+    "id": "gpu-nvidia-rtx3060",
+    "name": "NVIDIA GeForce RTX 3060",
+    "category": "gpu",
+    "brand": "NVIDIA",
+    "model": "GeForce RTX 3060",
+    "specs": {
+      "vram": "12GB GDDR6",
+      "memoryBus": "192-bit",
+      "baseClock": "1320 MHz",
+      "boostClock": "1777 MHz",
+      "tdp": "170W",
+      "recommendedPSU": "550W",
+      "target": "1080p Ultra / 1440p Medium"
+    },
+    "affiliateUrl": "https://www.amazon.com/dp/B08W8DGK3X",
+    "priceRange": { "min": 240, "max": 300 }
+  },
+  {
+    "id": "gpu-nvidia-rtx3070",
+    "name": "NVIDIA GeForce RTX 3070",
+    "category": "gpu",
+    "brand": "NVIDIA",
+    "model": "GeForce RTX 3070",
+    "specs": {
+      "vram": "8GB GDDR6",
+      "memoryBus": "256-bit",
+      "baseClock": "1500 MHz",
+      "boostClock": "1725 MHz",
+      "tdp": "220W",
+      "recommendedPSU": "650W",
+      "target": "1440p Ultra"
+    },
+    "affiliateUrl": "https://www.amazon.com/dp/B098VTBZDY",
+    "priceRange": { "min": 300, "max": 380 }
+  },
+  {
+    "id": "gpu-amd-rx7800xt",
+    "name": "AMD Radeon RX 7800 XT",
+    "category": "gpu",
+    "brand": "AMD",
+    "model": "Radeon RX 7800 XT",
+    "specs": {
+      "vram": "16GB GDDR6",
+      "memoryBus": "256-bit",
+      "baseClock": "1295 MHz",
+      "boostClock": "2430 MHz",
+      "tdp": "263W",
+      "recommendedPSU": "700W",
+      "target": "1440p Ultra"
+    },
+    "affiliateUrl": "https://www.amazon.com/dp/B0CFJ3GWH8",
+    "priceRange": { "min": 440, "max": 510 }
+  },
+  {
+    "id": "gpu-nvidia-rtx4070",
+    "name": "NVIDIA GeForce RTX 4070",
+    "category": "gpu",
+    "brand": "NVIDIA",
+    "model": "GeForce RTX 4070",
+    "specs": {
+      "vram": "12GB GDDR6X",
+      "memoryBus": "192-bit",
+      "baseClock": "1920 MHz",
+      "boostClock": "2475 MHz",
+      "tdp": "200W",
+      "recommendedPSU": "650W",
+      "target": "1440p Ultra / 4K High"
+    },
+    "affiliateUrl": "https://www.amazon.com/dp/B0BZNHF7QQ",
+    "priceRange": { "min": 540, "max": 620 }
+  },
+  {
+    "id": "gpu-nvidia-rtx4070ti",
+    "name": "NVIDIA GeForce RTX 4070 Ti",
+    "category": "gpu",
+    "brand": "NVIDIA",
+    "model": "GeForce RTX 4070 Ti",
+    "specs": {
+      "vram": "12GB GDDR6X",
+      "memoryBus": "192-bit",
+      "baseClock": "2310 MHz",
+      "boostClock": "2610 MHz",
+      "tdp": "285W",
+      "recommendedPSU": "700W",
+      "target": "4K Ultra"
+    },
+    "affiliateUrl": "https://www.amazon.com/dp/B0BRCVZ56J",
+    "priceRange": { "min": 740, "max": 820 }
+  },
+  {
+    "id": "gpu-nvidia-rtx4090",
+    "name": "NVIDIA GeForce RTX 4090",
+    "category": "gpu",
+    "brand": "NVIDIA",
+    "model": "GeForce RTX 4090",
+    "specs": {
+      "vram": "24GB GDDR6X",
+      "memoryBus": "384-bit",
+      "baseClock": "2230 MHz",
+      "boostClock": "2520 MHz",
+      "tdp": "450W",
+      "recommendedPSU": "850W",
+      "target": "4K Ultra / 8K"
+    },
+    "affiliateUrl": "https://www.amazon.com/dp/B0BG94ZVR5",
+    "priceRange": { "min": 1550, "max": 1800 }
+  },
+  {
+    "id": "ram-corsair-16gb-ddr4-3200",
+    "name": "Corsair Vengeance LPX 16GB DDR4-3200",
+    "category": "ram",
+    "brand": "Corsair",
+    "model": "Vengeance LPX 16GB (2x8GB) DDR4-3200",
+    "specs": {
+      "capacity": "16GB",
+      "type": "DDR4",
+      "speed": "3200 MHz",
+      "kit": "2x8GB",
+      "latency": "CL16",
+      "voltage": "1.35V"
+    },
+    "affiliateUrl": "https://www.amazon.com/dp/B0143UM4TC",
+    "priceRange": { "min": 35, "max": 50 }
+  },
+  {
+    "id": "ram-crucial-32gb-ddr4-3200",
+    "name": "Crucial 32GB DDR4-3200",
+    "category": "ram",
+    "brand": "Crucial",
+    "model": "32GB (2x16GB) DDR4-3200",
+    "specs": {
+      "capacity": "32GB",
+      "type": "DDR4",
+      "speed": "3200 MHz",
+      "kit": "2x16GB",
+      "latency": "CL22",
+      "voltage": "1.2V"
+    },
+    "affiliateUrl": "https://www.amazon.com/dp/B08C4Y2RHF",
+    "priceRange": { "min": 55, "max": 75 }
+  },
+  {
+    "id": "ram-gskill-32gb-ddr5-6000",
+    "name": "G.Skill Trident Z5 32GB DDR5-6000",
+    "category": "ram",
+    "brand": "G.Skill",
+    "model": "Trident Z5 32GB (2x16GB) DDR5-6000",
+    "specs": {
+      "capacity": "32GB",
+      "type": "DDR5",
+      "speed": "6000 MHz",
+      "kit": "2x16GB",
+      "latency": "CL30",
+      "voltage": "1.35V"
+    },
+    "affiliateUrl": "https://www.amazon.com/dp/B09NMPJXWL",
+    "priceRange": { "min": 90, "max": 120 }
+  },
+  {
+    "id": "ram-gskill-64gb-ddr5-6000",
+    "name": "G.Skill Trident Z5 64GB DDR5-6000",
+    "category": "ram",
+    "brand": "G.Skill",
+    "model": "Trident Z5 64GB (2x32GB) DDR5-6000",
+    "specs": {
+      "capacity": "64GB",
+      "type": "DDR5",
+      "speed": "6000 MHz",
+      "kit": "2x32GB",
+      "latency": "CL30",
+      "voltage": "1.35V"
+    },
+    "affiliateUrl": "https://www.amazon.com/dp/B09S2ZPR98",
+    "priceRange": { "min": 170, "max": 220 }
+  },
+  {
+    "id": "ram-corsair-16gb-ddr5-5200",
+    "name": "Corsair Vengeance 16GB DDR5-5200",
+    "category": "ram",
+    "brand": "Corsair",
+    "model": "Vengeance 16GB (2x8GB) DDR5-5200",
+    "specs": {
+      "capacity": "16GB",
+      "type": "DDR5",
+      "speed": "5200 MHz",
+      "kit": "2x8GB",
+      "latency": "CL38",
+      "voltage": "1.25V"
+    },
+    "affiliateUrl": "https://www.amazon.com/dp/B0B5HJVKRB",
+    "priceRange": { "min": 55, "max": 75 }
+  },
+  {
+    "id": "ssd-crucial-mx500-1tb",
+    "name": "Crucial MX500 1TB SATA SSD",
+    "category": "storage",
+    "brand": "Crucial",
+    "model": "MX500 1TB",
+    "specs": {
+      "capacity": "1TB",
+      "interface": "SATA III",
+      "formFactor": "2.5\"",
+      "readSpeed": "560 MB/s",
+      "writeSpeed": "510 MB/s",
+      "type": "SATA SSD"
+    },
+    "affiliateUrl": "https://www.amazon.com/dp/B077SF8KMG",
+    "priceRange": { "min": 55, "max": 75 }
+  },
+  {
+    "id": "ssd-samsung-980-1tb",
+    "name": "Samsung 980 1TB NVMe SSD",
+    "category": "storage",
+    "brand": "Samsung",
+    "model": "980 1TB",
+    "specs": {
+      "capacity": "1TB",
+      "interface": "PCIe 3.0 x4 NVMe",
+      "formFactor": "M.2 2280",
+      "readSpeed": "3500 MB/s",
+      "writeSpeed": "3000 MB/s",
+      "type": "NVMe SSD"
+    },
+    "affiliateUrl": "https://www.amazon.com/dp/B08V83JZH4",
+    "priceRange": { "min": 65, "max": 90 }
+  },
+  {
+    "id": "ssd-wd-black-sn770-1tb",
+    "name": "WD Black SN770 1TB NVMe SSD",
+    "category": "storage",
+    "brand": "Western Digital",
+    "model": "Black SN770 1TB",
+    "specs": {
+      "capacity": "1TB",
+      "interface": "PCIe 4.0 x4 NVMe",
+      "formFactor": "M.2 2280",
+      "readSpeed": "5150 MB/s",
+      "writeSpeed": "4900 MB/s",
+      "type": "NVMe Gen4 SSD"
+    },
+    "affiliateUrl": "https://www.amazon.com/dp/B09QVD9V7R",
+    "priceRange": { "min": 80, "max": 110 }
+  },
+  {
+    "id": "ssd-samsung-990pro-2tb",
+    "name": "Samsung 990 Pro 2TB NVMe SSD",
+    "category": "storage",
+    "brand": "Samsung",
+    "model": "990 Pro 2TB",
+    "specs": {
+      "capacity": "2TB",
+      "interface": "PCIe 4.0 x4 NVMe",
+      "formFactor": "M.2 2280",
+      "readSpeed": "7450 MB/s",
+      "writeSpeed": "6900 MB/s",
+      "type": "NVMe Gen4 SSD"
+    },
+    "affiliateUrl": "https://www.amazon.com/dp/B0BHJJ9Y77",
+    "priceRange": { "min": 150, "max": 190 }
+  },
+  {
+    "id": "ssd-wd-black-sn850x-2tb",
+    "name": "WD Black SN850X 2TB NVMe SSD",
+    "category": "storage",
+    "brand": "Western Digital",
+    "model": "Black SN850X 2TB",
+    "specs": {
+      "capacity": "2TB",
+      "interface": "PCIe 4.0 x4 NVMe",
+      "formFactor": "M.2 2280",
+      "readSpeed": "7300 MB/s",
+      "writeSpeed": "6600 MB/s",
+      "type": "NVMe Gen4 SSD"
+    },
+    "affiliateUrl": "https://www.amazon.com/dp/B09QVD9V7S",
+    "priceRange": { "min": 160, "max": 200 }
+  },
+  {
+    "id": "mobo-msi-b760m-pro",
+    "name": "MSI PRO B760M-A WiFi",
+    "category": "motherboard",
+    "brand": "MSI",
+    "model": "PRO B760M-A WiFi",
+    "specs": {
+      "socket": "LGA1700",
+      "chipset": "B760",
+      "formFactor": "Micro-ATX",
+      "memorySlots": 4,
+      "memoryType": "DDR4/DDR5",
+      "maxMemory": "128GB",
+      "pcie": "PCIe 5.0 x16",
+      "wifi": "Wi-Fi 6E"
+    },
+    "affiliateUrl": "https://www.amazon.com/dp/B0BSJQSTXB",
+    "priceRange": { "min": 120, "max": 150 }
+  },
+  {
+    "id": "mobo-gigabyte-b550m-aorus",
+    "name": "Gigabyte B550M AORUS Pro",
+    "category": "motherboard",
+    "brand": "Gigabyte",
+    "model": "B550M AORUS Pro",
+    "specs": {
+      "socket": "AM4",
+      "chipset": "B550",
+      "formFactor": "Micro-ATX",
+      "memorySlots": 4,
+      "memoryType": "DDR4",
+      "maxMemory": "128GB",
+      "pcie": "PCIe 4.0 x16",
+      "wifi": "None"
+    },
+    "affiliateUrl": "https://www.amazon.com/dp/B08FXQXLWH",
+    "priceRange": { "min": 110, "max": 145 }
+  },
+  {
+    "id": "mobo-asus-b650-plus-wifi",
+    "name": "ASUS TUF Gaming B650-PLUS WiFi",
+    "category": "motherboard",
+    "brand": "ASUS",
+    "model": "TUF Gaming B650-PLUS WiFi",
+    "specs": {
+      "socket": "AM5",
+      "chipset": "B650",
+      "formFactor": "ATX",
+      "memorySlots": 4,
+      "memoryType": "DDR5",
+      "maxMemory": "192GB",
+      "pcie": "PCIe 5.0 x16",
+      "wifi": "Wi-Fi 6"
+    },
+    "affiliateUrl": "https://www.amazon.com/dp/B0BG3R33QQ",
+    "priceRange": { "min": 170, "max": 210 }
+  },
+  {
+    "id": "mobo-asus-z790-hero",
+    "name": "ASUS ROG Maximus Z790 Hero",
+    "category": "motherboard",
+    "brand": "ASUS",
+    "model": "ROG Maximus Z790 Hero",
+    "specs": {
+      "socket": "LGA1700",
+      "chipset": "Z790",
+      "formFactor": "ATX",
+      "memorySlots": 4,
+      "memoryType": "DDR5",
+      "maxMemory": "192GB",
+      "pcie": "PCIe 5.0 x16",
+      "wifi": "Wi-Fi 6E"
+    },
+    "affiliateUrl": "https://www.amazon.com/dp/B0BHX7GNHS",
+    "priceRange": { "min": 560, "max": 640 }
+  },
+  {
+    "id": "mobo-msi-x670e-ace",
+    "name": "MSI MEG X670E ACE",
+    "category": "motherboard",
+    "brand": "MSI",
+    "model": "MEG X670E ACE",
+    "specs": {
+      "socket": "AM5",
+      "chipset": "X670E",
+      "formFactor": "ATX",
+      "memorySlots": 4,
+      "memoryType": "DDR5",
+      "maxMemory": "192GB",
+      "pcie": "PCIe 5.0 x16",
+      "wifi": "Wi-Fi 6E"
+    },
+    "affiliateUrl": "https://www.amazon.com/dp/B0BDNZMQDS",
+    "priceRange": { "min": 500, "max": 600 }
+  },
+  {
+    "id": "psu-corsair-cx650m",
+    "name": "Corsair CX650M 650W 80+ Bronze",
+    "category": "psu",
+    "brand": "Corsair",
+    "model": "CX650M",
+    "specs": {
+      "wattage": "650W",
+      "efficiency": "80+ Bronze",
+      "modular": "Semi-Modular",
+      "fanSize": "120mm",
+      "protections": "OVP, UVP, OCP, OPP, SCP"
+    },
+    "affiliateUrl": "https://www.amazon.com/dp/B0B1WBXQVG",
+    "priceRange": { "min": 65, "max": 85 }
+  },
+  {
+    "id": "psu-seasonic-focus-750w-gold",
+    "name": "Seasonic FOCUS GX-750 750W 80+ Gold",
+    "category": "psu",
+    "brand": "Seasonic",
+    "model": "FOCUS GX-750",
+    "specs": {
+      "wattage": "750W",
+      "efficiency": "80+ Gold",
+      "modular": "Fully Modular",
+      "fanSize": "120mm",
+      "protections": "OVP, UVP, OCP, OPP, SCP, OTP"
+    },
+    "affiliateUrl": "https://www.amazon.com/dp/B08F7WLFB7",
+    "priceRange": { "min": 100, "max": 130 }
+  },
+  {
+    "id": "psu-corsair-rm850e",
+    "name": "Corsair RM850e 850W 80+ Gold",
+    "category": "psu",
+    "brand": "Corsair",
+    "model": "RM850e",
+    "specs": {
+      "wattage": "850W",
+      "efficiency": "80+ Gold",
+      "modular": "Fully Modular",
+      "fanSize": "140mm",
+      "protections": "OVP, UVP, OCP, OPP, SCP, OTP"
+    },
+    "affiliateUrl": "https://www.amazon.com/dp/B0B98NRB2D",
+    "priceRange": { "min": 115, "max": 145 }
+  },
+  {
+    "id": "psu-seasonic-prime-1000w-platinum",
+    "name": "Seasonic PRIME PX-1000 1000W 80+ Platinum",
+    "category": "psu",
+    "brand": "Seasonic",
+    "model": "PRIME PX-1000",
+    "specs": {
+      "wattage": "1000W",
+      "efficiency": "80+ Platinum",
+      "modular": "Fully Modular",
+      "fanSize": "135mm",
+      "protections": "OVP, UVP, OCP, OPP, SCP, OTP"
+    },
+    "affiliateUrl": "https://www.amazon.com/dp/B07H7GX8HX",
+    "priceRange": { "min": 180, "max": 230 }
+  },
+  {
+    "id": "case-phanteks-p300a",
+    "name": "Phanteks Eclipse P300A",
+    "category": "case",
+    "brand": "Phanteks",
+    "model": "Eclipse P300A",
+    "specs": {
+      "formFactor": "Mid Tower",
+      "supportedMobo": "ATX, Micro-ATX, Mini-ITX",
+      "frontPanel": "Mesh",
+      "maxGPULength": "420mm",
+      "maxCPUHeight": "160mm",
+      "driveBays": "2x3.5\" + 2x2.5\"",
+      "includedFans": "1x120mm"
+    },
+    "affiliateUrl": "https://www.amazon.com/dp/B07RWCWB16",
+    "priceRange": { "min": 55, "max": 75 }
+  },
+  {
+    "id": "case-nzxt-h510",
+    "name": "NZXT H510 Compact ATX Mid-Tower",
+    "category": "case",
+    "brand": "NZXT",
+    "model": "H510",
+    "specs": {
+      "formFactor": "Mid Tower",
+      "supportedMobo": "ATX, Micro-ATX, Mini-ITX",
+      "frontPanel": "Steel",
+      "maxGPULength": "381mm",
+      "maxCPUHeight": "165mm",
+      "driveBays": "2x3.5\" + 4x2.5\"",
+      "includedFans": "2x120mm"
+    },
+    "affiliateUrl": "https://www.amazon.com/dp/B07T7STQ89",
+    "priceRange": { "min": 70, "max": 100 }
+  },
+  {
+    "id": "case-fractal-meshify-c",
+    "name": "Fractal Design Meshify C",
+    "category": "case",
+    "brand": "Fractal Design",
+    "model": "Meshify C",
+    "specs": {
+      "formFactor": "Mid Tower",
+      "supportedMobo": "ATX, Micro-ATX, Mini-ITX",
+      "frontPanel": "Mesh",
+      "maxGPULength": "315mm",
+      "maxCPUHeight": "172mm",
+      "driveBays": "2x3.5\" + 3x2.5\"",
+      "includedFans": "2x120mm"
+    },
+    "affiliateUrl": "https://www.amazon.com/dp/B074DQCSK8",
+    "priceRange": { "min": 85, "max": 115 }
+  },
+  {
+    "id": "case-fractal-meshify2",
+    "name": "Fractal Design Meshify 2",
+    "category": "case",
+    "brand": "Fractal Design",
+    "model": "Meshify 2",
+    "specs": {
+      "formFactor": "Mid Tower",
+      "supportedMobo": "E-ATX, ATX, Micro-ATX, Mini-ITX",
+      "frontPanel": "Tempered Glass / Mesh",
+      "maxGPULength": "461mm",
+      "maxCPUHeight": "185mm",
+      "driveBays": "3x3.5\" + 9x2.5\"",
+      "includedFans": "3x140mm"
+    },
+    "affiliateUrl": "https://www.amazon.com/dp/B08H4FKVFM",
+    "priceRange": { "min": 150, "max": 185 }
+  },
+  {
+    "id": "case-lian-li-o11-dynamic",
+    "name": "Lian Li O11 Dynamic EVO",
+    "category": "case",
+    "brand": "Lian Li",
+    "model": "O11 Dynamic EVO",
+    "specs": {
+      "formFactor": "Mid Tower",
+      "supportedMobo": "E-ATX, ATX, Micro-ATX",
+      "frontPanel": "Tempered Glass",
+      "maxGPULength": "446mm",
+      "maxCPUHeight": "167mm",
+      "driveBays": "2x3.5\" + 6x2.5\"",
+      "includedFans": "0 (fan slots for 10)"
+    },
+    "affiliateUrl": "https://www.amazon.com/dp/B0B8BP4RKH",
+    "priceRange": { "min": 130, "max": 165 }
+  }
+]
