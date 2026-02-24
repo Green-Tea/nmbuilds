@@ -16,11 +16,11 @@ export default function InternalLinkSection({
 
   return (
     <nav aria-label="Related PC builds">
-      <h2 className="text-xl font-bold text-zinc-100 mb-4">Related Builds</h2>
+      <h2 className="mb-4 text-xl font-bold text-slate-900">Related Builds</h2>
 
       {hasUserType && (
         <section className="mb-6">
-          <h3 className="text-sm font-semibold text-zinc-400 uppercase tracking-wider mb-3">
+          <h3 className="mb-3 text-sm font-semibold uppercase tracking-wider text-slate-500">
             Same Use Case
           </h3>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -33,7 +33,7 @@ export default function InternalLinkSection({
 
       {hasBudget && (
         <section className="mb-6">
-          <h3 className="text-sm font-semibold text-zinc-400 uppercase tracking-wider mb-3">
+          <h3 className="mb-3 text-sm font-semibold uppercase tracking-wider text-slate-500">
             Same Budget Tier
           </h3>
           <div className="grid gap-4 sm:grid-cols-2">
@@ -46,7 +46,7 @@ export default function InternalLinkSection({
 
       {hasOverlap && (
         <section className="mb-6">
-          <h3 className="text-sm font-semibold text-zinc-400 uppercase tracking-wider mb-3">
+          <h3 className="mb-3 text-sm font-semibold uppercase tracking-wider text-slate-500">
             Builds With Shared Parts
           </h3>
           <div className="grid gap-4 sm:grid-cols-2">

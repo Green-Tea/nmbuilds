@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { assetPath } from "@/lib/assetPath";
 import { getAllBuilds, getBuildWithProducts, getTotalBuildPrice } from "@/lib/getBuilds";
 
 const featuredTabs = [
@@ -48,7 +49,7 @@ export default function FeaturedBuilds() {
         title: build.title.split(" – ")[0],
         tagline: build.description,
         price: `From $${minPrice.toLocaleString()}`,
-        image: `/images/featured-${build.userType}.svg`,
+        image: assetPath(`/images/featured-${build.userType}.svg`),
       };
     });
 

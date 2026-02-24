@@ -1,30 +1,31 @@
 import Image from "next/image";
 import Link from "next/link";
+import { assetPath } from "@/lib/assetPath";
 
 const cards = [
   {
     href: "/category/gamer",
     title: "Gamer Setups",
     desc: "High-performance gaming rigs.",
-    image: "/images/use-case-gamer.svg",
+    image: assetPath("/images/use-case-gamer.svg"),
   },
   {
     href: "/category/student",
     title: "Student Setups",
     desc: "Affordable setups for school.",
-    image: "/images/use-case-student.svg",
+    image: assetPath("/images/use-case-student.svg"),
   },
   {
     href: "/category/developer",
     title: "Developer Setups",
     desc: "Optimized workstations for coding.",
-    image: "/images/use-case-developer.svg",
+    image: assetPath("/images/use-case-developer.svg"),
   },
   {
     href: "/category/creator",
     title: "Creator Setups",
     desc: "Gear for content creation.",
-    image: "/images/use-case-creator.svg",
+    image: assetPath("/images/use-case-creator.svg"),
   },
 ];
 

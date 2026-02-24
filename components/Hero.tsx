@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { assetPath } from "@/lib/assetPath";
 
 export default function Hero() {
   return (
@@ -34,7 +35,7 @@ export default function Hero() {
         <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-xl">
           <div className="relative aspect-[16/10] w-full">
             <Image
-              src="/images/hero-setup.svg"
+              src={assetPath("/images/hero-setup.svg")}
               alt="Desk setup with PC and monitor"
               fill
               priority

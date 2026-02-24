@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { assetPath } from "@/lib/assetPath";
 
 export default function CTAPanels() {
   return (
@@ -7,7 +8,7 @@ export default function CTAPanels() {
       <div className="grid grid-cols-1 gap-5 md:grid-cols-2">
         <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
           <div className="relative h-44 w-full">
-            <Image src="/images/featured-gamer.svg" alt="" fill className="object-cover" />
+            <Image src={assetPath("/images/featured-gamer.svg")} alt="" fill className="object-cover" />
           </div>
           <div className="p-6">
             <h3 className="text-lg font-semibold text-slate-900">Browse all builds</h3>
@@ -25,7 +26,7 @@ export default function CTAPanels() {
 
         <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
           <div className="relative h-44 w-full">
-            <Image src="/images/cta-guides.svg" alt="" fill className="object-cover" />
+            <Image src={assetPath("/images/cta-guides.svg")} alt="" fill className="object-cover" />
           </div>
           <div className="p-6">
             <h3 className="text-lg font-semibold text-slate-900">Expert guides & tips</h3>
