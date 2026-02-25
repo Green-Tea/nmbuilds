@@ -1,0 +1,5 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+  <rect width='512' height='512' fill='#55c2d6'/>
+  <rect x='12' y='12' width='488' height='488' fill='#000'/>
+  <text x='256' y='324' text-anchor='middle' font-family='Inter, Arial, sans-serif' font-size='220' font-weight='500' letter-spacing='16' fill='#55c2d6'>nm</text>
+</svg>
