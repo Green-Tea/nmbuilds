@@ -4,6 +4,7 @@ import { assetPath } from "@/lib/assetPath";
 
 const navItems = [
   { href: "/builds", label: "Builds" },
+  { href: "/parts", label: "Parts" },
   { href: "/guides", label: "Guides" },
   { href: "/about", label: "About" },
 ];

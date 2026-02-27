@@ -37,6 +37,10 @@ export function getAllUserTypes(): UserType[] {
   return [...new Set(builds.map((b) => b.userType))];
 }
 
+export function getBuildsByProductId(productId: string): Build[] {
+  return builds.filter((b) => b.productIds.includes(productId));
+}
+
 export function getTotalBuildPrice(build: BuildWithProducts): {
   min: number;
   max: number;
