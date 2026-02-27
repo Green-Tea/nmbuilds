@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import NavBar from "@/components/NavBar";
 import Hero from "@/components/Hero";
-import UseCaseGrid from "@/components/UseCaseGrid";
 import FeaturedBuilds from "@/components/FeaturedBuilds";
+import TrendingBuilds from "@/components/TrendingBuilds";
 import CTAPanels from "@/components/CTAPanels";
 import Footer from "@/components/Footer";
 
@@ -18,8 +18,9 @@ export default function HomePage() {
       <NavBar />
       <main>
         <Hero />
-        <UseCaseGrid />
+        <br />
         <FeaturedBuilds />
+        <TrendingBuilds />
         <CTAPanels />
       </main>
       <Footer />

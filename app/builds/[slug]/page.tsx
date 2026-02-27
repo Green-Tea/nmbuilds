@@ -19,15 +19,16 @@ import {
 } from "@/types";
 
 interface Props {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }
 
 export function generateStaticParams() {
   return getAllBuildSlugs().map((slug) => ({ slug }));
 }
 
-export function generateMetadata({ params }: Props): Metadata {
-  const build = getBuildWithProducts(params.slug);
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { slug } = await params;
+  const build = getBuildWithProducts(slug);
   if (!build) return {};
 
   const price = getTotalBuildPrice(build);
@@ -48,13 +49,14 @@ export function generateMetadata({ params }: Props): Metadata {
   };
 }
 
-export default function BuildPage({ params }: Props) {
-  const build = getBuildWithProducts(params.slug);
+export default async function BuildPage({ params }: Props) {
+  const { slug } = await params;
+  const build = getBuildWithProducts(slug);
   if (!build) notFound();
 
   const related = getRelatedBuilds(build);
   const price = getTotalBuildPrice(build);
-  const markdown = getMarkdownForBuild(params.slug);
+  const markdown = getMarkdownForBuild(slug);
 
   const jsonLd = {
     "@context": "https://schema.org",

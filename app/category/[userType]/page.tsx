@@ -13,15 +13,16 @@ import Footer from "@/components/Footer";
 import Link from "next/link";
 
 interface Props {
-  params: { userType: string };
+  params: Promise<{ userType: string }>;
 }
 
 export function generateStaticParams() {
   return USER_TYPES.map((userType) => ({ userType }));
 }
 
-export function generateMetadata({ params }: Props): Metadata {
-  const userType = params.userType as UserType;
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { userType: userTypeParam } = await params;
+  const userType = userTypeParam as UserType;
   if (!USER_TYPES.includes(userType)) return {};
 
   const label = USER_TYPE_LABELS[userType];
@@ -31,8 +32,9 @@ export function generateMetadata({ params }: Props): Metadata {
   };
 }
 
-export default function CategoryPage({ params }: Props) {
-  const userType = params.userType as UserType;
+export default async function CategoryPage({ params }: Props) {
+  const { userType: userTypeParam } = await params;
+  const userType = userTypeParam as UserType;
   if (!USER_TYPES.includes(userType)) notFound();
 
   const builds = getBuildsByUserType(userType);
