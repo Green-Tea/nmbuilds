@@ -15,12 +15,12 @@ export default function NavBar() {
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4">
         <Link href="/" aria-label="nm builds home" className="flex items-center">
           <Image
-            src={assetPath("/images/logo-wordmark.svg")}
-            alt="nm builds"
-            width={220}
-            height={50}
+            src={assetPath("/images/logo-square.svg")}
+            alt="nm builds logo"
+            width={36}
+            height={36}
             priority
-            className="h-9 w-auto"
+            className="h-9 w-9"
           />
         </Link>
 
